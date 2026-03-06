@@ -17,26 +17,26 @@ int main() {
 
     switch(op) {
         case '+':
-            cout << "Result = " << num1 + num2;
+            cout << "Result = " << num1 + num2<<endl;
             break;
 
         case '-':
-            cout << "Result = " << num1 - num2;
+            cout << "Result = " << num1 - num2<<endl;
             break;
 
         case '*':
-            cout << "Result = " << num1 * num2;
+            cout << "Result = " << num1 * num2<<endl;
             break;
 
         case '/':
             if(num2 != 0)
-                cout << "Result = " << num1 / num2;
+                cout << "Result = " << num1 / num2<<endl;
             else
-                cout << "Error! Division by zero.";
+                cout << "Error! Division by zero."<<endl;
             break;
 
         default:
-            cout << "Invalid operator!";
+            cout << "Invalid operator!"<<endl;
     }
 
     return 0;
