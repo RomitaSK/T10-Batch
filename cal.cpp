@@ -38,6 +38,6 @@ int main() {
         default:
             cout << "Invalid operator!"<<endl;
     }
-
+cout<<endl;
     return 0;
 }
